@@ -102,14 +102,14 @@ namespace ReciveData
                 c.RoutePrefix = "swagger";
             });
 
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseHsts();
-            }
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
+            //else
+            //{
+            //    app.UseHsts();
+            //}
 
             //app.UseHttpsRedirection();
             //app.UseMvc();
